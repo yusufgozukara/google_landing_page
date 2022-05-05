@@ -1,5 +1,5 @@
 # google_landing_page
-Hi, this is my Google Landing Pager working. You can see it from this link below..
+Hi, this is my Google Landing Page work. You can see it from this link below..
 
 [Click Here!](https://yusufgozukara.github.io/google_landing_page/)
 
