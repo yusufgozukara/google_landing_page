@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid pink; */
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    padding-right: 80px;
+    /* display: flex; */
+    /* vertical-align: middle; */
+
+    /* justify-content: space-around;
+    align-items: center; */
+    
+}
+
+header ul li{
+    display: inline-block;
+    width: 70px;
+    /* border: 1px solid white; */
+    font-size: 1rem;
+    text-align: end;
+    vertical-align: middle;
+}
+
+header #l1{
+    float: left;
+    margin-top: 5px;
+}
+
+header #l2{
+    float: right;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+}
+
+#appicon{
+    width: 25px;
+}
+
+#appicon:hover{
+    opacity: 0.6;
+}
+
+#signin{
+    color: #fff;
+    background-color: #1a73e8;
+    margin-left: 25px;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#signin:hover{
+    background-color: gray;
+}
+
+#searchinput:focus{
+    outline: none;
+}
+
+
+.midarea{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin:100px auto 225px;
+}
+
+#logo{
+    margin: auto;
+}
+
+#search{
+    width: 500px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#searchikon{
+    opacity: 0.3;
+}
+#searchinput{
+    width: 400px;
+    border: none;
+    /* cursor: pointer; */
+}
+
+#und_search{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+#und_search button{
+    width: 120px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(133, 129, 129);
+}
+
+#und_button{
+    margin: auto;
+    font-size: 14px;
+}
+
+.footdiv{
+    background-color: rgb(242, 242, 242);
+    font-size: 18px;
+    color: darkgrey;  
+    /* margin-bottom: 20px; */
+}
+
+.footdiv div p{
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+}
+
+
+.footdiv li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.footdiv ul li a{
+    color: darkgray;
+    text-decoration: none;
+}
+.footdiv ul li a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+#footl{
+    float: left;
+}
+
+#footr{
+    float: right;
+}
+
+@media (max-width:600px){
+    header{
+        margin-top: 10px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .midarea{
+        /* border: 1px solid red; */
+        margin: auto;
+        width: 350px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin:100px auto 225px;
+    }
+    #search{
+        width: 350px;
+    }
+    #searchinput{
+        width: 250px;
+        /* border: none; */
+        /* cursor: pointer; */
+    }
+}
+
+
+
+
+
+
+
+
+
